@@ -3,7 +3,7 @@ const { connection } = require("./../db/connection");
 
 router.get("/", (req, res) => {
   connection.query(
-    "SELECT * FROM `categories`",
+    "SELECT medicines.id, medicines.reference_no, medicines.name, medicines.strength, medicines.category_id, medicines.expiration, medicines.description, medicines.quantity, medicines.image, categories.name as categoryName FROM medicines INNER JOIN categories ON medicines.category_id=categories.id",
     function (error, results, fields) {
       if (error) throw error;
       res.status(200).json(results);
@@ -12,14 +12,37 @@ router.get("/", (req, res) => {
 });
 
 router.post("/create", (req, res) => {
-  const { categoryName } = req?.body || {};
+  console.log("req body", req?.body);
+
+  const {
+    name,
+    reference_no,
+    category_id,
+    expiration,
+    quantity,
+    strength,
+    description,
+    image,
+  } = req?.body || {};
 
   return connection.query(
     {
-      sql: "INSERT INTO `categories`(`name`) VALUES (?)",
-      values: [categoryName],
+      sql: "INSERT INTO `medicines`(`reference_no`, `name`, `strength`, `category_id`, `expiration`, `description`, `quantity`, `image`) VALUES (?,?,?,?,?,?,?,?)",
+      values: [
+        reference_no,
+        name,
+        strength,
+        category_id,
+        expiration,
+        description,
+        quantity,
+        image,
+      ],
     },
     function (error, results, fields) {
+      console.log(`fields:`, fields);
+      console.log(`results:`, results);
+      console.log(`error:`, error);
       if (error) throw error;
       res.status(200).json(results);
     }
@@ -31,7 +54,7 @@ router.post("/update", (req, res) => {
 
   return connection.query(
     {
-      sql: "UPDATE `categories` SET `name`=? WHERE id=?",
+      sql: "UPDATE `medicines` SET `name`=? WHERE id=?",
       values: [categoryName, categoryId],
     },
     function (error, results, fields) {
@@ -47,7 +70,7 @@ router.post("/delete", (req, res) => {
 
   return connection.query(
     {
-      sql: "DELETE FROM `categories` WHERE id=?",
+      sql: "DELETE FROM `medicines` WHERE id=?",
       values: [categoryId],
     },
     function (error, results, fields) {
