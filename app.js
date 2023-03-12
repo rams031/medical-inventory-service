@@ -16,10 +16,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => res.send("working"));
 
+const AccountRouter = require("./routes/accounts");
 const CategoryRouter = require("./routes/category");
 const MedicineRouter = require("./routes/medicine");
 
 app.use("/category/", CategoryRouter);
 app.use("/medicine/", MedicineRouter);
+app.use("/account/", AccountRouter);
+
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
