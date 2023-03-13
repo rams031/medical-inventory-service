@@ -80,4 +80,20 @@ router.post("/delete", (req, res) => {
   );
 });
 
+router.post("/deduct", (req, res) => {
+  const { id, deductQuantity } = req?.body || {};
+
+  return connection.query(
+    {
+      sql: "UPDATE `medicines` SET `quantity`= quantity - ? WHERE id=?",
+      values: [deductQuantity, id],
+    },
+    function (error, results, fields) {
+      if (error) throw error;
+      // if()
+      res.status(200).json(results);
+    }
+  );
+});
+
 module.exports = router;

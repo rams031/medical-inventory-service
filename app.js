@@ -19,10 +19,12 @@ app.get("/", (req, res) => res.send("working"));
 const AccountRouter = require("./routes/accounts");
 const CategoryRouter = require("./routes/category");
 const MedicineRouter = require("./routes/medicine");
+const ActivityRouter = require("./routes/activity");
 
 app.use("/category/", CategoryRouter);
 app.use("/medicine/", MedicineRouter);
 app.use("/account/", AccountRouter);
+app.use("/activity/", AccountRouter);
 
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
