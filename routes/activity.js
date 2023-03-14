@@ -7,7 +7,7 @@ router.get("/", (req, res) => {
       sql: "SELECT * FROM `activity`",
     },
     function (error, results, fields) {
-      if (error) throw error;
+      if (error) return res.status(400).send(error);
       res.status(200).json(results);
     }
   );

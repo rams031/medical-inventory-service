@@ -5,7 +5,7 @@ router.get("/", (req, res) => {
   connection.query(
     "SELECT medicines.id, medicines.reference_no, medicines.name, medicines.strength, medicines.category_id, medicines.expiration, medicines.description, medicines.quantity, medicines.image, categories.name as categoryName FROM medicines INNER JOIN categories ON medicines.category_id=categories.id",
     function (error, results, fields) {
-      if (error) throw error;
+      if (error) return res.status(400).send(error);
       res.status(200).json(results);
     }
   );
@@ -40,41 +40,58 @@ router.post("/create", (req, res) => {
       ],
     },
     function (error, results, fields) {
-      console.log(`fields:`, fields);
-      console.log(`results:`, results);
-      console.log(`error:`, error);
-      if (error) throw error;
+      if (error) return res.status(400).send(error);
       res.status(200).json(results);
     }
   );
 });
 
 router.post("/update", (req, res) => {
-  const { categoryName, categoryId } = req.body || {};
+  const {
+    reference_no,
+    name,
+    strength,
+    category_id,
+    expiration,
+    description,
+    quantity,
+    image,
+    id,
+  } = req.body || {};
 
   return connection.query(
     {
-      sql: "UPDATE `medicines` SET `name`=? WHERE id=?",
-      values: [categoryName, categoryId],
+      sql: "UPDATE `medicines` SET `reference_no`=? ,`name`=? ,`strength`=? ,`category_id`=?,`expiration`=?,`description`=?,`quantity`=?,`image`=? WHERE id=?",
+      values: [
+        reference_no,
+        name,
+        strength,
+        category_id,
+        expiration,
+        description,
+        quantity,
+        image,
+        id,
+      ],
     },
     function (error, results, fields) {
       console.log(`error:`, error);
-      if (error) throw error;
+      if (error) return res.status(400).send(error);
       res.status(200).json(results);
     }
   );
 });
 
 router.post("/delete", (req, res) => {
-  const { categoryId } = req?.body || {};
+  const { medicineId } = req?.body || {};
 
   return connection.query(
     {
       sql: "DELETE FROM `medicines` WHERE id=?",
-      values: [categoryId],
+      values: [medicineId],
     },
     function (error, results, fields) {
-      if (error) throw error;
+      if (error) return res.status(400).send(error);
       res.status(200).json(results);
     }
   );
@@ -89,7 +106,7 @@ router.post("/deduct", (req, res) => {
       values: [deductQuantity, id],
     },
     function (error, results, fields) {
-      if (error) throw error;
+      if (error) return res.status(400).send(error);
       // if()
       res.status(200).json(results);
     }

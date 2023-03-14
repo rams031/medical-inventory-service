@@ -5,8 +5,8 @@ router.get("/", (req, res) => {
   connection.query(
     "SELECT * FROM `categories`",
     function (error, results, fields) {
-      if (error) throw error;
-      res.status(200).json(results);
+      if (error) return res.send(error);
+      return res.status(200).json(results);
     }
   );
 });
@@ -20,8 +20,8 @@ router.post("/create", (req, res) => {
       values: [categoryName],
     },
     function (error, results, fields) {
-      if (error) throw error;
-      res.status(200).json(results);
+      if (error) return res.send(error);
+      return res.status(200).json(results);
     }
   );
 });
@@ -36,8 +36,8 @@ router.post("/update", (req, res) => {
     },
     function (error, results, fields) {
       console.log(`error:`, error);
-      if (error) throw error;
-      res.status(200).json(results);
+      if (error) return res.send(error);
+      return res.status(200).json(results);
     }
   );
 });
@@ -51,8 +51,8 @@ router.post("/delete", (req, res) => {
       values: [categoryId],
     },
     function (error, results, fields) {
-      if (error) throw error;
-      res.status(200).json(results);
+      if (error) return res.send(error);
+      return res.status(200).json(results);
     }
   );
 });
