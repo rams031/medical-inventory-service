@@ -1,16 +1,17 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const morgan = require("morgan");
 const cors = require("cors");
 const app = express();
 const { connection } = require("./db/connection");
 const port = process.env.PORT || 3001;
 
 connection.on("acquire", (connection) => {
-  console.log("Connection %d acquired", connection.threadId);
+  console.log("Open Connection %d  ", connection.threadId);
 });
 
 connection.on("release", (connection) => {
-  console.log("Connection %d released", connection.threadId);
+  console.log("Close Connection %d released", connection.threadId);
 });
 
 // Create Connection Action
@@ -22,6 +23,7 @@ connection.on("release", (connection) => {
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(morgan("combined"));
 
 app.get("/", (req, res) => res.send("working"));
 
