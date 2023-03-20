@@ -2,9 +2,15 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const cors = require("cors");
+const cronitor = require("cronitor")("4ae4a0429aea445880397090180b32be");
 const app = express();
 const { connection } = require("./db/connection");
 const port = process.env.PORT || 3001;
+const monitor = new cronitor.Monitor("Medical Inventory System");
+
+monitor.ping({ state: "run" });
+monitor.ping({ state: "complete" });
+monitor.ping({ state: "fail" });
 
 connection.on("acquire", (connection) => {
   console.log("Open Connection %d  ", connection.threadId);
@@ -31,10 +37,12 @@ const AccountRouter = require("./routes/accounts");
 const CategoryRouter = require("./routes/category");
 const MedicineRouter = require("./routes/medicine");
 const ActivityRouter = require("./routes/activity");
+const BarangayRouter = require("./routes/barangay");
 
 app.use("/category/", CategoryRouter);
 app.use("/medicine/", MedicineRouter);
 app.use("/account/", AccountRouter);
 app.use("/activity/", AccountRouter);
+app.use("/barangay/", BarangayRouter);
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));

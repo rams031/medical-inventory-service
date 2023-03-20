@@ -47,3 +47,205 @@
 2023-03-17 13:25:53 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.serverless-mysql-U5NheMXb
 2023-03-17 13:25:53 error: SQLITE_ERROR: no such table: issues
 2023-03-17 13:25:53 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:23:42 info: tempDirectory:c:\Users\Xypher Solutions Inc\.vscode\extensions\embold-vscode.embold-0.1.4\temp
+2023-03-20 08:23:42 info: Extraction complete for source: c:\Users\Xypher Solutions Inc\.vscode\extensions\embold-vscode.embold-0.1.4\resources\embold-scanner-archive.zip, destination: c:\Users\Xypher Solutions Inc\.vscode\extensions\embold-vscode.embold-0.1.4\temp
+2023-03-20 08:23:42 info: Congratulations, your extension "Embold" is now active!
+2023-03-20 08:34:55 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/abbrev
+2023-03-20 08:34:55 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/tar
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/glob
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/nopt
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/once
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/tr46
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/gauge
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/aproba
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/bcrypt
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/chownr
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/mkdirp
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/npmlog
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/rimraf
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/semver
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/wrappy
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/yallist
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/inflight
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/make-dir
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/minipass
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/minizlib
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/delegates
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/lru-cache
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/minimatch
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/agent-base
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/ansi-regex
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/concat-map
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/node-fetch
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/strip-ansi
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/whatwg-url
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/wide-align
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/detect-libc
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/emoji-regex
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/fs-minipass
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/fs.realpath
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/has-unicode
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/signal-exit
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/set-blocking
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/string-width
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/color-support
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/balanced-match
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/node-addon-api
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/brace-expansion
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/are-we-there-yet
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/path-is-absolute
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/https-proxy-agent
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/webidl-conversions
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/console-control-strings
+2023-03-20 08:34:56 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/is-fullwidth-code-point
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:56 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.abbrev-DrF84mYC
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.tar-lrV2YVXo
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.glob-1bqFZGK0
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.nopt-NsrgPGOd
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.once-xKwV95oA
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.tr46-pEZkGiDx
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.gauge-vNZXZCmz
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.aproba-XQDklQSi
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.bcrypt-GFRmOj8N
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.chownr-tlVWkRAE
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.mkdirp-QAD3EG28
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.npmlog-uVeBwkGD
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.rimraf-pq1vcxCY
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.semver-Qn5fWh2o
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.wrappy-4YIFGzBh
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.yallist-PvgGIqSm
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.inflight-0w69bohZ
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.make-dir-Xocxhm60
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.minipass-fdMecH5q
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.minizlib-4X6dhQrP
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.delegates-7eSJQh83
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.lru-cache-af8houj9
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.minimatch-TJZwsS0c
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.agent-base-6EO7W4Jd
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.ansi-regex-jozzFJTk
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.concat-map-AbKJAb5o
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.node-fetch-peqzzHCs
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.strip-ansi-0wQd6aTy
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.whatwg-url-jyAWt2P0
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.wide-align-CYqPsrFW
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.detect-libc-rNkr55Cb
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.emoji-regex-CPaZwUt3
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.fs-minipass-ZspiHxzq
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.fs.realpath-vOck82Gg
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.has-unicode-lRLEmQYn
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.signal-exit-6hw8QLUx
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.set-blocking-4wNjgxyH
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.string-width-bIPuZgRw
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.color-support-2ocNCI20
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.balanced-match-TmI36cDB
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.node-addon-api-SEZmiYnW
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.brace-expansion-jn3CJs2O
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.are-we-there-yet-SmMuydJt
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.path-is-absolute-U5LKBN6t
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.https-proxy-agent-lcI95upO
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.webidl-conversions-uT8pA0Ru
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.console-control-strings-lkf2fNEn
+2023-03-20 08:34:57 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/node_modules/.is-fullwidth-code-point-8aAtesAq
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 08:34:57 error: SQLITE_ERROR: no such table: issues
+2023-03-20 11:16:52 info: tempDirectory:c:\Users\Xypher Solutions Inc\.vscode\extensions\embold-vscode.embold-0.1.4\temp
+2023-03-20 11:16:52 info: Extraction complete for source: c:\Users\Xypher Solutions Inc\.vscode\extensions\embold-vscode.embold-0.1.4\resources\embold-scanner-archive.zip, destination: c:\Users\Xypher Solutions Inc\.vscode\extensions\embold-vscode.embold-0.1.4\temp
+2023-03-20 11:16:52 info: Congratulations, your extension "Embold" is now active!
+2023-03-20 16:13:17 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/.git/index.lock
+2023-03-20 16:13:17 error: SQLITE_ERROR: no such table: issues
+2023-03-20 16:13:29 info: file:///c%3A/Users/Xypher%20Solutions%20Inc/Desktop/medical-inventory-service/.git/index.lock
+2023-03-20 16:13:29 error: SQLITE_ERROR: no such table: issues
