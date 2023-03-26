@@ -1,15 +1,9 @@
 const router = require("express").Router();
 const { connection } = require("./../db/connection");
 
-router.get("/:id", (req, res) => {
-  const { id } = req.params || {};
-
-  return connection.query(
-    {
-      sql: "SELECT medicines.*, categories.name as categoryName FROM medicines INNER JOIN categories ON medicines.category_id=categories.id WHERE medicines.barangayId = ?",
-      values: [id],
-    },
-
+router.get("/", (req, res) => {
+  connection.query(
+    "SELECT medicines.id, medicines.reference_no, medicines.name, medicines.strength, medicines.category_id, medicines.expiration, medicines.description, medicines.quantity, medicines.image, categories.name as categoryName FROM medicines INNER JOIN categories ON medicines.category_id=categories.id",
     function (error, results, fields) {
       if (error) return res.status(400).send(error);
       res.status(200).json(results);
@@ -18,6 +12,8 @@ router.get("/:id", (req, res) => {
 });
 
 router.post("/create", (req, res) => {
+  console.log("req body", req?.body);
+
   const {
     name,
     reference_no,
@@ -27,16 +23,14 @@ router.post("/create", (req, res) => {
     strength,
     description,
     image,
-    barangayId,
   } = req?.body || {};
 
   return connection.query(
     {
-      sql: "INSERT INTO `medicines`(`reference_no`, `name`, `barangayId`, `strength`, `category_id`, `expiration`, `description`, `quantity`, `image`) VALUES (?,?,?,?,?,?,?,?,?)",
+      sql: "INSERT INTO `medicines`(`reference_no`, `name`, `strength`, `category_id`, `expiration`, `description`, `quantity`, `image`) VALUES (?,?,?,?,?,?,?,?)",
       values: [
         reference_no,
         name,
-        barangayId,
         strength,
         category_id,
         expiration,
